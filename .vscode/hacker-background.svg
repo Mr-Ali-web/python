@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="700" viewBox="0 0 1200 700">
+  <defs>
+    <linearGradient id="shade" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#06110a"/>
+      <stop offset=".55" stop-color="#06110a" stop-opacity=".82"/>
+      <stop offset="1" stop-color="#06110a" stop-opacity=".34"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="82%" cy="48%" r="62%">
+      <stop offset="0" stop-color="#00ff66" stop-opacity=".28"/>
+      <stop offset="1" stop-color="#00ff66" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="48" height="48" patternUnits="userSpaceOnUse">
+      <path d="M48 0H0V48" fill="none" stroke="#52ff8a" stroke-opacity=".12" stroke-width="1"/>
+    </pattern>
+  </defs>
+  <rect width="1200" height="700" fill="#06110a"/>
+  <rect width="1200" height="700" fill="url(#glow)"/>
+  <rect width="1200" height="700" fill="url(#grid)"/>
+  <g fill="#72ff9a" font-family="monospace" font-size="18" opacity=".42">
+    <text x="760" y="115">01001000 01000001 01000011 01001011</text>
+    <text x="805" y="165">01000101 01010010 00100000 01001101</text>
+    <text x="735" y="215">01001111 01000100 01000101 00100000 01000001</text>
+    <text x="825" y="265">01110000 01111001 01110100 01101000 01101111 01101110</text>
+    <text x="770" y="315">01000100 01000101 01000110 00100000 01000011</text>
+    <text x="850" y="365">01001111 01000100 01000101 00100000 01001111</text>
+    <text x="740" y="415">01101001 01100110 00100000 01110111 01101000 01101001 01101100 01100101</text>
+    <text x="815" y="465">01010011 01010100 01000001 01011001 00100000 01000011 01010101 01010010 01001001 01001111 01010101 01010011</text>
+    <text x="765" y="515">01001001 01001110 01000110 01001001 01001110 01001001 01010100 01000101 00100000 01001100 01001111 01001111 01010000</text>
+    <text x="840" y="565">01000100 01000101 01000010 01010101 01000111 00100000 01010100 01001000 01001001 01001110 01001011</text>
+    <text x="760" y="615">01010000 01010010 01000001 01000011 01010100 01001001 01000011 01000101 00100000 01010010 01000101 01010000 01000101 01000001 01010100</text>
+  </g>
+  <rect width="1200" height="700" fill="url(#shade)"/>
+</svg>

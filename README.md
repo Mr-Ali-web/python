@@ -17,4 +17,6 @@ python3 main.py
 
 Boshqa mashqni bajarish uchun `main.py` o‘rniga kerakli fayl nomini yozing.
 
-VS Code uchun workspace sozlamalari `.vscode/` ichida. Ular Python ishga tushirishni va yashil-qora rang sxemasini sozlaydi.
+VS Code uchun workspace sozlamalari `.vscode/` ichida. Python tavsiya etilgan kengaytmalari `.vscode/extensions.json` da berilgan. Sozlamalar formatlashni saqlash paytida bajaradi, importlarni tartiblaydi va yashil-qora rang sxemasi hamda xira hacker uslubidagi editor fonini yoqadi. Fon rasmi `.vscode/hacker-background.svg` da saqlanadi.
+
+Editor fon kengaytmasi VS Code interfeys fayllarini o‘zgartirib ishlashi mumkin. Birinchi marta yoqish uchun Command Palette’da `Background: Enable and apply the background` buyrug‘ini bajaring. Yangilanishlardan keyin fon yo‘qolsa, shu buyruqni qayta bajaring.
