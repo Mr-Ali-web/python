@@ -1,0 +1,27 @@
+{
+    "python.defaultInterpreterPath": "python3",
+    "code-runner.runInTerminal": true,
+    "code-runner.saveFileBeforeRun": true,
+    "code-runner.executorMap": {
+        "python": "python3 -u"
+    },
+    "workbench.colorTheme": "Default Dark Modern",
+    "workbench.colorCustomizations": {
+        "editor.background": "#06110A",
+        "editor.foreground": "#B8F4C8",
+        "editorCursor.foreground": "#8CFF9B",
+        "editorLineNumber.foreground": "#4A7956",
+        "editorLineNumber.activeForeground": "#A4FFB3",
+        "editor.selectionBackground": "#1E5031",
+        "editor.lineHighlightBackground": "#102318",
+        "sideBar.background": "#07150C",
+        "activityBar.background": "#041009",
+        "statusBar.background": "#0C3B20",
+        "statusBar.foreground": "#D7FFE0",
+        "titleBar.activeBackground": "#07150C",
+        "titleBar.activeForeground": "#D7FFE0",
+        "panel.background": "#07110B",
+        "terminal.background": "#050B07",
+        "terminal.foreground": "#9EF0AD"
+    }
+}
