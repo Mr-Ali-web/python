@@ -5,7 +5,7 @@
     "code-runner.executorMap": {
         "python": "python3 -u"
     },
-    "workbench.colorTheme": "Default Dark Modern",
+    "workbench.colorTheme": "Dark Modern",
     "workbench.iconTheme": "material-icon-theme",
     "workbench.colorCustomizations": {
         "editor.background": "#06110A",
@@ -52,7 +52,7 @@
         "style": {
             "background-position": "right center",
             "background-size": "cover",
-            "opacity": 0.13
+            "opacity": 0.5
         },
         "images": [
             "https://raw.githubusercontent.com/Mr-Ali-web/python/main/.vscode/hacker-background.svg"
